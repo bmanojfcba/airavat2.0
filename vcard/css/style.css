@@ -1,0 +1,388 @@
+body
+{
+
+}
+
+.header1 
+{
+	background-color: #00122A;
+}
+.bottom-text{
+    background-color:green;
+    color:white;
+}
+.infini {
+    width: 36px;
+    margin-left: 5px;
+}
+.header1 span
+{
+	text-align: center;
+    font-size: 14px;
+    font-weight: 300px;
+    line-height: 30px;
+    color: white;
+    display: block;
+    	font-family: 'Muli', sans-serif !important;
+}
+.location
+{
+background-color: #c72e22 !important;
+border: 2px solid #c72e22 !important;
+}
+.col
+{
+	display: block;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin: 0;
+    padding: 0.25rem;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+}
+.banner .container
+{
+ padding: 0px;   
+}
+.row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    position: relative;
+    height: 100%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
+    overflow: hidden;
+}
+.share
+{
+	object-fit: cover;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin: 0;
+    margin-left: 4px;
+}
+.profile-pic
+{
+width: 100%;
+}
+.col.is-6 {
+    flex: none;
+    width: 60%;
+}
+
+.company {
+    font-family: 'Lato', sans-serif !important;
+    font-weight: 300;
+    color: #333333;
+    font-size: 14px;
+     text-align: right;
+    
+}
+h6{
+    display: inline;
+}
+
+.name {
+   font-family: 'Lato', sans-serif !important;
+    color: #333333;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: right;
+    margin-top: 15px;
+   
+}
+
+.row.explain {
+    margin-top: 2.5rem;
+}
+
+.explain .fa
+{
+	background-color: #2E87E8;
+	border:1px solid #fff;
+	border-radius: 50%;
+	padding: 8px 12px !important;
+	color:#ffffff;
+}
+
+.explain .text-detail
+{
+	font-size: 12px;
+
+}
+
+li
+{
+	list-style: none;
+	 font-family:'Lato', sans-serif !important; 
+}
+
+ul
+{
+	    padding-inline-start: 0px;
+	    margin-left: 0px;
+}
+
+.services {
+    /*margin-bottom: 1rem !important;
+    margin-top: 1rem !important;*/
+    /*border-top: 1px solid #EDEDED;
+    border-bottom: 1px solid #EDEDED;*/
+    font-family:'Lato', sans-serif !important; 
+    
+}
+
+.members
+{
+
+    border-bottom: 1px solid #EDEDED;	
+     font-family:'Lato', sans-serif !important; 
+
+  
+}
+
+.services h4
+{
+	font-weight: bold;
+	 font-family:'Lato', sans-serif !important; 
+}
+
+
+.members h4
+{
+	font-weight: bold;
+	 font-family:'Lato', sans-serif !important; 
+}
+
+.text-detail a:hover
+{
+	text-decoration: none;
+	color: #000 !important;
+}
+.text-detail a
+{
+	color:#000 !important;
+}
+
+.text-detail
+{
+	
+	 padding-left: 10px;
+}
+
+.description
+{
+	text-align: right;
+	margin-top:40px;
+	margin-left: 30px;
+}
+.bottom {
+    height: 100px;
+}
+
+.button-save {
+    background-color: white;
+}
+
+.button-main {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    display: block;
+    width: 160px;
+    background: linear-gradient(#2F80ED, #2D9CDB);
+    height: 53px;
+    padding: 0px 24px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 48px;
+    font-family: 'Lato', sans-serif !important;
+    color: white;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    font-weight: 300;
+    border: none;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    -webkit-box-shadow: rgba(0,0,0,0.8) 1px 1px 3px;
+    -moz-box-shadow: rgba(0,0,0,0.8) 1px 1px 3px;
+    box-shadow: rgba(0,0,0,0.8) 1px 1px 3px;
+
+}
+
+.button-save
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.about-footer {
+    margin-bottom: 10px;
+    position: relative;
+    margin: 23px 0;
+}
+.about-footer a {
+    font-size: 17px;
+    color: #414e58;
+    display: block;
+    padding-left: 44px;
+        line-height: 32px;
+    position: relative;
+   
+}
+.list-contact a i {
+    font-size: 15px;
+    width: 36px;
+    height: 36px;
+    display: block;
+    border: 2px solid #0c2883;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 32px;
+    position: absolute;
+    left: 0;
+    top: -3px;
+    color: #0c2883;
+}
+
+
+.bg-color-white {
+    background-color: white;
+}
+
+
+/*.secondary-info {
+    height: 60px;
+}*/
+
+
+.text-detail {
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    color: #333333;
+    font-size: 13px;
+    position: relative;
+    transform: translateY(-5%);
+    letter-spacing: 0.15px;
+}
+
+
+.secondary-info .fa
+{
+    font-size: 23px;
+    width: 40px;
+    height: 40px;
+    display: block;
+    border: 2px solid #2E87E8;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 36px;
+    left: 0;
+    top: -5px;
+    color: #ffffff;
+    background-color: #2E87E8;
+}
+
+
+
+.secondary-info .faa
+{
+    font-size: 23px;
+    width: 40px;
+    height: 40px;
+    display: block;
+    border: 2px solid #ea0000;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 36px;
+    left: 0;
+    top: -5px;
+    color: #ffffff;
+    background-color: #ea0000;
+}
+
+/*.row.detail:after
+{
+   font-family: FontAwesome;
+    content: "\f1d8";
+    font-size: 20px;
+    color: #2e87e8;
+        margin-right: 18px;
+}*/
+.whatsapp
+{
+    background-color: #25d366 !important;
+    border: 2px solid #25d366 !important;
+}
+.facebook
+{
+background-color: rgba(60,90,153) !important;
+border: 2px solid rgba(60,90,153) !important;
+}
+a:hover
+{
+text-decoration: none;
+}
+.icon-div
+{
+	position: relative;
+	margin-left:18px;
+}
+
+.secondary-info
+{
+	padding-top: 15px;
+}
+
+@media only screen and (max-width: 3000px) and (min-width: 1100px)
+{
+
+}
+
+@media only screen and (max-width: 1366px) and (min-width: 1024px)
+{
+
+}
+
+
+
+@media only screen and (max-width: 1100px) and (min-width: 440px)
+{
+
+}
+
+
+@media only screen and (max-width: 440px)
+{
+
+.text-detail
+{
+	padding-left: 10px;
+    
+}
+
+}
+
+
+.moveCenter {
+    text-align: center;
+}
+.titleText {
+    text-decoration: underline;
+}
+
+h4
+{
+    color: #414e58;
+}
+

@@ -1,0 +1,49 @@
+
+  .scrolling-container {
+    display: flex;
+    flex-direction: column;
+    height: 30px;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+   
+    width: 100%;
+    background-color: #f5f5f5;
+  }
+  
+  .scrolling-text {
+    white-space: nowrap;
+    animation: scroll 1s infinite alternate;
+    text-align: center;
+  }
+  
+  @keyframes scroll {
+    from { opacity: 0; } 
+  }
+  
+  .scroll-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background:#8cc18c;
+    height: 100%;
+    font-size: 0.8rem;
+    width: 20%;
+    font-weight: bold;
+  }
+  
+  /* Mobile responsiveness */
+  @media (max-width: 767px) {
+    .scrolling-container {
+      height: auto;
+      .scrolling-text {
+        text-align: left;
+        }
+    };
+    
+  }
+  @media (max-width: 767px) {
+    
+  }
+  
